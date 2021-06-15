@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Projeto_Curso_full_stack.Domain</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Aggregates\EmployeeRole\Interfaces\Repository\" />
+    <Folder Include="Aggregates\EmployeeRole\Interfaces\Services\" />
+    <Folder Include="Aggregates\EmployeeRole\Validators\" />
+    <Folder Include="Aggregates\EmployeeRole\Services\" />
+  </ItemGroup>
+
+</Project>

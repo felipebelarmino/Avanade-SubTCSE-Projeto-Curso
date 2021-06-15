@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Projeto_Curso_full_stack.CrossCutting</RootNamespace>
+  </PropertyGroup>
+
+</Project>
