@@ -10,7 +10,9 @@ namespace Projeto_Curso_full_stack.Application.AutoMapperConfigs.Profiles.Employ
                 .ForCtorParam("roleName", opt => opt.MapFrom(src => src.Cargo));
 
             CreateMap<Domain.Aggregates.EmployeeRole.Entities.EmployeeRole, Dtos.EmployeeRole.EmployeeRoleDto>()
-                .ForMember("");
+                .ForMember(dest => dest.Identificador, opt => opt.MapFrom(src => src.Id))
+                .ForMember(dest => dest.Cargo, opt => opt.MapFrom(src => src.RoleName))
+                .ForAllOtherMembers(i => i.Ignore());
         }
     }
 }

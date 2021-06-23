@@ -1,7 +1,9 @@
-﻿namespace Projeto_Curso_full_stack.Domain.Aggregates.EmployeeRole.Interfaces.Services
+﻿using System.Threading.Tasks;
+
+namespace Projeto_Curso_full_stack.Domain.Aggregates.EmployeeRole.Interfaces.Services
 {
     interface IEmployeeRoleService
     {
-        void AddEmployeeRole(Entities.EmployeeRole employeeRole);
+        Task<Entities.EmployeeRole> AddEmployeeRole(Entities.EmployeeRole employeeRole);
     }
 }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 namespace Projeto_Curso_full_stack.Domain.Aggregates.EmployeeRole.Entities
 {
-    public class EmployeeRole
+    public class EmployeeRole : BaseEntity<string>
     {
         public EmployeeRole(string id, string roleName)
         {
