@@ -1,12 +1,11 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>Projeto_Curso_full_stack.Domain</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Aggregates\Employee\ValueObj\" />
+    <Folder Include="Aggregates\Employee\ValueObject\" />
   </ItemGroup>
 
   <ItemGroup>
